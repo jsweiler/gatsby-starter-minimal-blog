@@ -10,7 +10,7 @@ This keyword applies to classes, structs, records, and record structs.
 
 You use it like this:
 
-```c#
+``` c#
 public class Person
 {
     public required string Name { get; set; }
@@ -19,7 +19,7 @@ public class Person
 ```
 If you try to create a Person object without passing in any values, you will get a compiler error. You cannot do this: var person = new Person(). You need to specify the required values:
 
-```csharp
+``` csharp
 var person = new Person
 {
     Name = "Bob",
